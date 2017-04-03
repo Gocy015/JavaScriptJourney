@@ -1,0 +1,12 @@
+body {
+    background-color: lightblue;
+}
+
+button {
+    background-color: darkred;
+    color: white;
+    font-size: 24px;
+    padding: 10px 22px;
+    border-radius: 8px;
+    border: 0px;
+}

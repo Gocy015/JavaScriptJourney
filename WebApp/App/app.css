@@ -1,0 +1,25 @@
+.page {
+    width: 220px;
+    height: 360px;
+    text-align: center;
+    border: 2px solid black;
+    /*background-color: cornflowerblue*/
+}
+
+#container {
+    overflow-y: scroll;
+}
+
+button.jumpButton {
+    border: none;
+    background-color: transparent;
+}
+
+.menu {
+    position: fixed;
+    width: 120px;
+    height: 100px;
+    /*background-color: cornflowerblue;*/
+    right: 20px;
+    top: 20px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'>
+    </script>
+    <script src="app.js">
+    </script>
+</head>
+
+<body>
+    <ul>
+        <li draggable="true">List Item One</li>
+        <li draggable="true">List Item Two</li>
+        <li draggable="true">List Item Three</li>
+    </ul>
+
+    <div class="droppable-leave" id='drop_here'>Drop here</div>
+    <br>
+    <input type="file" accept="image/*" id="file-selector">
+
+    <p id="table_container" style="width:80%">
+        <table draggable="true" style="width:100%">
+            <tr>
+                <th>First</th>
+                <th>Second</th>
+            </tr>
+            <tr>
+                <td align="center">R1C1</td>
+                <td align="center">R1C2</td>
+            </tr>
+        </table>
+
+        <!--
+            text-align: center IS working, but you're applying it to an element that doesn't have a width greater than its content (as all block elements do).
+
+            I recommend either changing the span to a <p> element, or specifying the display: block property on your span.
+
+            Here's a JSfiddle to demonstrate that both a <span> with display: block; text-align: center and a <p> with text-align: center; achieve the same effect.
+    -->
+    </p>
+
+    <br>
+    <button id='gen-blob'>Generate Blob</button>
+
+</body>
+
+</html>

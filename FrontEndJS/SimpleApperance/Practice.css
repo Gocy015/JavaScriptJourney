@@ -1,0 +1,15 @@
+/*
+ #  id
+ .  class
+*/
+
+.red-button {
+    background-color: darkred;
+    color: white;
+    text-decoration: line-through underline;
+}
+
+.gray-button {
+    background-color: gray;
+    color: papayawhip;
+}

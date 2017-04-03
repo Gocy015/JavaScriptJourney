@@ -1,0 +1,13 @@
+body {
+    background-color: darkslategray;
+}
+
+button {
+    background-color: gray;
+    color: papayawhip;
+    font-size: 24px;
+    padding: 10px 22px;
+    border-radius: 8px;
+    border: 0px;
+    float: right;
+}

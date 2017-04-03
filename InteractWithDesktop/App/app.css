@@ -1,0 +1,20 @@
+.style-drag:-webkit-drag {
+    opacity: 0.2;
+    /*-webkit-transform: scale(0.1);
+    transform: scale(0.1);*/
+}
+
+div.droppable-enter {
+    background-color: darkred;
+}
+
+div.droppable-leave {
+    background-color: darkcyan;
+}
+
+img.drop-img {
+    /*width: 100%;*/
+    max-width: 222px;
+    display: block;
+    margin: 6px 2px;
+}

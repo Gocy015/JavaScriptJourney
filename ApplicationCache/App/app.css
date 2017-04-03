@@ -1,0 +1,12 @@
+div.title {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+img.display {
+    width: 520px;
+    padding: 22px;
+    display: block;
+    margin: auto
+}
